@@ -27,7 +27,7 @@ public:
 };
 
 
-//单利类
+//单例类
 class SingletonObject
 {
 private:
