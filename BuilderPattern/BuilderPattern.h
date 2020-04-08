@@ -143,7 +143,7 @@ public:
 		return 35.5f;
 	}
 };
-
+//组装类 也就是导演类
 typedef list<Item*> ItemList;
 class Meal
 {
@@ -157,7 +157,7 @@ public:
 private:
 	ItemList itemList;
 };
-
+//生产类
 class MealBuilder
 {
 public:
