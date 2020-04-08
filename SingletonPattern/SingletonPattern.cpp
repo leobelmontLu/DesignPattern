@@ -14,6 +14,7 @@ void QMManager::ShowMessage()
 
 SingletonObject* SingletonObject::getInstance()
 {
+	std::unique_lock<std::mutex> lock(m_Mutex); // 加锁（在C++11中这里不需要再加锁了，因为C++11中局部静态变量是唯一的）
 	static SingletonObject instance;
 	return &instance;
 }

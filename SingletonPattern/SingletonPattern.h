@@ -1,5 +1,6 @@
 #pragma once
 #include <iostream>
+#include <mutex>
 
 //µ¥ÀýÄ£°å
 template<typename T>
@@ -36,4 +37,6 @@ private:
 public:
 	static SingletonObject* getInstance();
 	virtual void ShowMessage();
+	static std::mutex m_Mutex;
 };
+std::mutex SingletonObject::m_Mutex;
