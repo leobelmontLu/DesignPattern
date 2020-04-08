@@ -14,18 +14,6 @@ public:
 	~Packing() {};
 	virtual string pack() = 0;
 };
-
-//食物条目
-class  Item
-{
-public:
-	Item() {};
-	~Item() {};
-	virtual string GetItemName() = 0;
-	virtual Packing* GetPacking() = 0;
-	virtual float price() = 0;
-};
-
 //包装类实现
 class Wrapper : public Packing
 {
@@ -49,6 +37,16 @@ public:
 	}
 };
 
+//食物条目
+class  Item
+{
+public:
+	Item() {};
+	~Item() {};
+	virtual string GetItemName() = 0;
+	virtual Packing* GetPacking() = 0;
+	virtual float price() = 0;
+};
 //食品条目实现
 class Burger : public Item
 {
