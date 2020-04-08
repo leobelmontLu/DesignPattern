@@ -158,7 +158,6 @@ private:
 	ItemList itemList;
 };
 
-
 class MealBuilder
 {
 public:
