@@ -1,16 +1,14 @@
-﻿// DecoratorPattern.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// FacadePattern.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
-#include "DecoratorPattern.h"
+
+#include "FacadePattern.h"
 
 int main()
 {
-	Shape* circle = new Circle();
-	RedShapeDecorator* redCircle = new RedShapeDecorator(new Circle());
-	RedShapeDecorator* redRectangle = new RedShapeDecorator(new Rectangle());
-
-	circle->Draw();
-	redCircle->Draw();
-	redRectangle->Draw();
+	ShapeMaker  shapeMaker;
+	shapeMaker.drawCircle();
+	shapeMaker.drawRectangle();
+	shapeMaker.drawSquare();
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
@@ -24,23 +22,29 @@ int main()
 //   5. 转到“项目”>“添加新项”以创建新的代码文件，或转到“项目”>“添加现有项”以将现有代码文件添加到项目
 //   6. 将来，若要再次打开此项目，请转到“文件”>“打开”>“项目”并选择 .sln 文件
 
-ShapeDecorator::ShapeDecorator(Shape * _shape)
+void Square::Draw()
 {
-	decoratedShape = _shape;
+	cout << "Shape: Square" << endl;
 }
 
-void ShapeDecorator::Draw()
+ShapeMaker::ShapeMaker()
 {
-	decoratedShape->Draw();
+	m_square = new Square();
+	m_rectangle = new Rectangle();
+	m_circle = new Circle();
 }
 
-void RedShapeDecorator::Draw()
+void ShapeMaker::drawSquare()
 {
-	decoratedShape->Draw();
-	setsetRedBorder();
+	m_square->Draw();
 }
 
-void RedShapeDecorator::setsetRedBorder()
+void ShapeMaker::drawRectangle()
 {
-	cout << "Border Color: Red" << endl;
+	m_rectangle->Draw();
+}
+
+void ShapeMaker::drawCircle()
+{
+	m_circle->Draw();
 }
