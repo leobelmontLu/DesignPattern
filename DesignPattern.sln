@@ -31,6 +31,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProxyPattern", "ProxyPatter
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ChainofResponsibilityPattern", "ChainofResponsibilityPattern\ChainofResponsibilityPattern.vcxproj", "{DEE91302-9EF0-4748-A8D1-D0DB2385FD8D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CommandPattern", "CommandPattern\CommandPattern.vcxproj", "{DC0048A5-54EF-436F-A703-6269DAE5EEAF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -151,6 +153,14 @@ Global
 		{DEE91302-9EF0-4748-A8D1-D0DB2385FD8D}.Release|x64.Build.0 = Release|x64
 		{DEE91302-9EF0-4748-A8D1-D0DB2385FD8D}.Release|x86.ActiveCfg = Release|Win32
 		{DEE91302-9EF0-4748-A8D1-D0DB2385FD8D}.Release|x86.Build.0 = Release|Win32
+		{DC0048A5-54EF-436F-A703-6269DAE5EEAF}.Debug|x64.ActiveCfg = Debug|x64
+		{DC0048A5-54EF-436F-A703-6269DAE5EEAF}.Debug|x64.Build.0 = Debug|x64
+		{DC0048A5-54EF-436F-A703-6269DAE5EEAF}.Debug|x86.ActiveCfg = Debug|Win32
+		{DC0048A5-54EF-436F-A703-6269DAE5EEAF}.Debug|x86.Build.0 = Debug|Win32
+		{DC0048A5-54EF-436F-A703-6269DAE5EEAF}.Release|x64.ActiveCfg = Release|x64
+		{DC0048A5-54EF-436F-A703-6269DAE5EEAF}.Release|x64.Build.0 = Release|x64
+		{DC0048A5-54EF-436F-A703-6269DAE5EEAF}.Release|x86.ActiveCfg = Release|Win32
+		{DC0048A5-54EF-436F-A703-6269DAE5EEAF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
