@@ -17,6 +17,12 @@ int main()
 	{
 		cout << IntAggregate[i] << endl;
 	}
+
+
+	for (iter->fist(); !iter->isDone(); iter->next())
+	{
+		cout << *iter->currentItem() << endl;
+	}
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
