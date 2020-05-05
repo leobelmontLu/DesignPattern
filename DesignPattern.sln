@@ -41,6 +41,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MediatorPattern", "Mediator
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MementoPattern", "MementoPattern\MementoPattern.vcxproj", "{84156A1B-25AF-4605-BE7D-EF78C9DBE779}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ObserverPattern", "ObserverPattern\ObserverPattern.vcxproj", "{85764559-D7F4-4483-BAA9-360484A2F22F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -201,6 +203,14 @@ Global
 		{84156A1B-25AF-4605-BE7D-EF78C9DBE779}.Release|x64.Build.0 = Release|x64
 		{84156A1B-25AF-4605-BE7D-EF78C9DBE779}.Release|x86.ActiveCfg = Release|Win32
 		{84156A1B-25AF-4605-BE7D-EF78C9DBE779}.Release|x86.Build.0 = Release|Win32
+		{85764559-D7F4-4483-BAA9-360484A2F22F}.Debug|x64.ActiveCfg = Debug|x64
+		{85764559-D7F4-4483-BAA9-360484A2F22F}.Debug|x64.Build.0 = Debug|x64
+		{85764559-D7F4-4483-BAA9-360484A2F22F}.Debug|x86.ActiveCfg = Debug|Win32
+		{85764559-D7F4-4483-BAA9-360484A2F22F}.Debug|x86.Build.0 = Debug|Win32
+		{85764559-D7F4-4483-BAA9-360484A2F22F}.Release|x64.ActiveCfg = Release|x64
+		{85764559-D7F4-4483-BAA9-360484A2F22F}.Release|x64.Build.0 = Release|x64
+		{85764559-D7F4-4483-BAA9-360484A2F22F}.Release|x86.ActiveCfg = Release|Win32
+		{85764559-D7F4-4483-BAA9-360484A2F22F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
