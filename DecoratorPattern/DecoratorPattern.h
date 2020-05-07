@@ -17,13 +17,13 @@ public:
 class Rectangle : public Shape
 {
 public:
-	virtual void Draw();
+	virtual void Draw() { cout << "Draw Rectangle" << endl; };
 };
 
 class Circle : public Shape
 {
 public:
-	virtual void Draw();
+	virtual void Draw() { cout << "Draw Circle" << endl; };
 };
 
 class ShapeDecorator : public Shape
