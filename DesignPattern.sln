@@ -53,6 +53,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TemplatePattern", "Template
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VisitorPattern", "VisitorPattern\VisitorPattern.vcxproj", "{8A6C2ED3-4D05-4134-BD33-E46D8DAED8AE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Model-View-Controller", "Model-View-Controller\Model-View-Controller.vcxproj", "{082F821E-5FF2-4C1E-B3FA-83F8B9886460}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -261,6 +263,14 @@ Global
 		{8A6C2ED3-4D05-4134-BD33-E46D8DAED8AE}.Release|x64.Build.0 = Release|x64
 		{8A6C2ED3-4D05-4134-BD33-E46D8DAED8AE}.Release|x86.ActiveCfg = Release|Win32
 		{8A6C2ED3-4D05-4134-BD33-E46D8DAED8AE}.Release|x86.Build.0 = Release|Win32
+		{082F821E-5FF2-4C1E-B3FA-83F8B9886460}.Debug|x64.ActiveCfg = Debug|x64
+		{082F821E-5FF2-4C1E-B3FA-83F8B9886460}.Debug|x64.Build.0 = Debug|x64
+		{082F821E-5FF2-4C1E-B3FA-83F8B9886460}.Debug|x86.ActiveCfg = Debug|Win32
+		{082F821E-5FF2-4C1E-B3FA-83F8B9886460}.Debug|x86.Build.0 = Debug|Win32
+		{082F821E-5FF2-4C1E-B3FA-83F8B9886460}.Release|x64.ActiveCfg = Release|x64
+		{082F821E-5FF2-4C1E-B3FA-83F8B9886460}.Release|x64.Build.0 = Release|x64
+		{082F821E-5FF2-4C1E-B3FA-83F8B9886460}.Release|x86.ActiveCfg = Release|Win32
+		{082F821E-5FF2-4C1E-B3FA-83F8B9886460}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
