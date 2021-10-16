@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.1062
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FactoryPattern", "DesignPattern\DesignPattern.vcxproj", "{2926B8A3-4FDD-42E2-A926-B73E23F861C7}"
 EndProject
@@ -54,6 +54,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VisitorPattern", "VisitorPattern\VisitorPattern.vcxproj", "{8A6C2ED3-4D05-4134-BD33-E46D8DAED8AE}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Model-View-Controller", "Model-View-Controller\Model-View-Controller.vcxproj", "{082F821E-5FF2-4C1E-B3FA-83F8B9886460}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SortAlgorithm", "SortAlgorithm\SortAlgorithm.vcxproj", "{A5504001-5D1E-49D2-9309-C99B19F39882}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -271,6 +273,14 @@ Global
 		{082F821E-5FF2-4C1E-B3FA-83F8B9886460}.Release|x64.Build.0 = Release|x64
 		{082F821E-5FF2-4C1E-B3FA-83F8B9886460}.Release|x86.ActiveCfg = Release|Win32
 		{082F821E-5FF2-4C1E-B3FA-83F8B9886460}.Release|x86.Build.0 = Release|Win32
+		{A5504001-5D1E-49D2-9309-C99B19F39882}.Debug|x64.ActiveCfg = Debug|x64
+		{A5504001-5D1E-49D2-9309-C99B19F39882}.Debug|x64.Build.0 = Debug|x64
+		{A5504001-5D1E-49D2-9309-C99B19F39882}.Debug|x86.ActiveCfg = Debug|Win32
+		{A5504001-5D1E-49D2-9309-C99B19F39882}.Debug|x86.Build.0 = Debug|Win32
+		{A5504001-5D1E-49D2-9309-C99B19F39882}.Release|x64.ActiveCfg = Release|x64
+		{A5504001-5D1E-49D2-9309-C99B19F39882}.Release|x64.Build.0 = Release|x64
+		{A5504001-5D1E-49D2-9309-C99B19F39882}.Release|x86.ActiveCfg = Release|Win32
+		{A5504001-5D1E-49D2-9309-C99B19F39882}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
