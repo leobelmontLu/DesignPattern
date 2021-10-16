@@ -37,16 +37,41 @@ bool FindVectorHasSameElement(std::vector<int> &_inData)
     return false;
 }
 
+/**
+* 排序算法
+*/
+//冒泡排序:临近的2个元素进行比较
+std::vector<int>& BubbleSort(std::vector<int> &_inData)
+{
+    for (int i = 0; i < _inData.size();i++)
+    {
+        for (int j = 0; j < _inData.size()-1-i;j++)
+        {
+            if (_inData[j] > _inData[j+1])
+            {
+                swap(_inData[j], _inData[j + 1]);
+            }
+        }
+    }
+    return _inData;
+}
+
+
+/************************************************************************/
+
+
 
 int main()
 {
     std::vector<int>_vecA = {10,4,6,2,1,5,3,7,8,9};
-    FindVectorHasSameElement(_vecA) ? std::cout << "有重复元素" << std::endl : std::cout << "没有重复元素" << std::endl;
-
-    for (int _element : _vecA)
+    _vecA = BubbleSort(_vecA);
+    for (auto element : _vecA)
     {
-        Print(_element);
+        Print(element);
     }
+    //FindVectorHasSameElement(_vecA) ? std::cout << "有重复元素" << std::endl : std::cout << "没有重复元素" << std::endl;
+
+
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
